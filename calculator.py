@@ -4,9 +4,14 @@ from arithmetic import (add, subtract, multiply, divide, square, cube,
                         power, mod, )
 
 while True:
-	token.split(',')
-	if the first token is "q":
-		quit
-	else: 
-		if the first token is "+":
+	input_string = input("Enter your equation: ")
+	tokens = input_string.split(' ')
+	print (tokens)
+
+	if "q" in tokens:
+		break
+
+	# else: 
+	# 	if token[0] is "+":
+	# 		pass
 
